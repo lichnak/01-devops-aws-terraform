@@ -3,11 +3,11 @@ region       = "eu-west-2"
 project_name = "terra"
 
 # Choose an existing public key you would like to use.
-public_key = "London"
+public_key = ""
 
 # Set the allowed CIDR blocks.
-allowed_cidr_blocks        = ["0.0.0.0/0"]
-http_srv_instance_type     = "t2.micro"
+allowed_cidr_blocks    = ["0.0.0.0/0"]
+http_srv_instance_type = "t2.micro"
 
 # Auto scalling group settings:
 autoscaling_group_min_size = 3
