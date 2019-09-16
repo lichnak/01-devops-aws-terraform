@@ -17,4 +17,4 @@ You should have IAM user AWS credentials saved on the host. Terraform supports t
 
 and build the infrastructure:
 
-```terraform apply```
+```terraform apply -var-file="terraform.tfvars"```
