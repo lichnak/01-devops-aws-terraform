@@ -1,7 +1,7 @@
 # Create a scalable AWS infrastructure using Terraform
 
 This module will build the following infrastructure: 
-![AWS infrastructure](./resources/devops-01.svg)
+![AWS infrastructure](.resources/devops-01.svg)
 
 * custom VPC
 * a new subnet in each Availability Zone
