@@ -25,7 +25,7 @@ variable "autoscaling_group_max_size" {
 You can authorise combinations of specific IP addresses and / or IP address ranges */
 
 variable "allowed_cidr_blocks" {
-  type = "list"
+  type = list(string)
   description = "Defines the IP range allowed to connect."
 }
 
